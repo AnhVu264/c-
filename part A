@@ -1,11 +1,19 @@
 1.
+-
+- Lỗi cú pháp được sửa lại là: bool isA = (90 <= grade && grade <= 100)
 2. in ra 0 
 3. vì kết quả vượt ngoài khả năng lưu trữ của số int 32 bit
 4.
+5. Chương trình bị lỗi division by zero
+6.
+- Chương trình bị lỗi "invalid operands of types 'int' and 'const char [6]' to binary 'operator*'"
+- Nếu chuyển dòng khai báo x ra ngoài hàm main thì x sẽ bằng 0
 7. 0
    0.75
    0.75
    0.75
 8. trình biên dịch báo biến đã được declare trước đó
+9. Khi ở bên trong khối lệnh con, định danh arg1 chỉ tới biến arg1 kiểu char
+10. Khi ra khỏi khối lệnh con, định danh arg1 chỉ tới biến arg1 kiểu int
 11. lệnh sai ở phép chia 5/9 vì cho kết quả ra 0
 12. in ra "here"
